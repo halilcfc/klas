@@ -24,7 +24,7 @@ if config.MONGO_DB_URI is None:
         "No MONGO DB URL found.. Your Bot will work on ArchMusic's Database"
     )
     temp_client = Client(
-        "ArchMusic",
+        "larisa",
         bot_token=config.BOT_TOKEN,
         api_id=config.API_ID,
         api_hash=config.API_HASH,

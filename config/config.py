@@ -18,11 +18,11 @@ API_HASH = getenv("API_HASH", "2b012ec696983799d2835514d4bc9ba1")
 
 ## Get it from @Botfather in Telegram.
 
-BOT_TOKEN = getenv("BOT_TOKEN", "6876097941:AAE0jmT20MCPnuC0SR9MSWHIIjhF9h1Hxng")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 # Database to save your chats and stats.
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://yuki3434:yuki3434@cluster0.khithey.mongodb.net/test?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://aysen3434:aysen3434@cluster0.jisamwa.mongodb.net/test?retryWrites=true&w=majority&appName=Cluster0")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 
@@ -42,17 +42,17 @@ SONG_DOWNLOAD_DURATION = int(
 
 # You'll need a Private Group ID for this.
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002142515860"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002046801532"))
 
 # A name for your Music bot.
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","Disney")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","fizzy")
 
 # Your User ID.
 
 OWNER_ID = list(
 
-    map(int, getenv("OWNER_ID", "6141828736").split())
+    map(int, getenv("OWNER_ID", "7117758464").split())
 
 )  # Input type must be interger
 

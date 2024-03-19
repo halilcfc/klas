@@ -9,26 +9,26 @@ HELP_1 = """✅**<u>BURDAKİ KOMUTLARI YALNIZCA GRUP ADMİNLERİ KULLANABİLİR:
 ╰☞**/atla :** Çalan Müziği Atlar.
 ╰☞**/dur veya /son :** Müziği Tamamen Durdurur.
 ╰☞**/karistir :** Sıraya Aldığınız Parçaları Karışık Şekilde Oynatır.
-╰☞**/ilerisar :** Müziği İleri Sarar. (Örnek: /ilerisar 15 İle Çalan Müziği 15 Saniye İleri Alabilirsiniz.)
-╰☞**/seekback :** Müziği Geri Sarar. (Örnek: /seekback 15 İle Çalan Müziği 15 Saniye Geri Alabilirsiniz.)
+╰☞**/ileri :** Müziği İleri Sarar. (Örnek: /ilerisar 15 İle Çalan Müziği 15 Saniye İleri Alabilirsiniz.)
+╰☞**/geri:** Müziği Geri Sarar. (Örnek: /seekback 15 İle Çalan Müziği 15 Saniye Geri Alabilirsiniz.)
 ╰☞**/restart :** Botu Yeniden Başlatır.
 
 ✅<u>**Döngü Modu:**</u>
-╰☞**/dongu :** Çalan Müziği Döngüye Alıp Tekrar Oynatır. 
-(Örnek: /dongu 3 İle Seste Çalan Müziği 3 Kere Daha Oynatır.)"""
+╰☞**/tekrar :** Çalan Müziği Döngüye Alıp Tekrar Oynatır. 
+(Örnek: /tekrar 3 İle Seste Çalan Müziği 3 Kere Daha Oynatır.)"""
 
 
 HELP_2 = """✅<u>**OYNATMA KOMUTLARI:**</u>
 
 ╰☞**/oynat veya /play :** Müziği Oynatmaya Yarar.
 ╰☞**-Örnek Kullanım:** /oynat şarkı İsmi // Veya Oynatmak İstediğiniz Şarkıyı Yanıtlayarak /oynat Yazabilirsiniz.
-(╰☞**Örnek:** /oynat Neşet Ertaş Gönül Dağı)
+(╰☞**Örnek:** /oynat uygar Doğanay )
 
 ╰☞**/vplay :** Videoyu Seste Oynatmaya Yarar.
 ╰☞**-Örnek Kullanım:** /vplay Video İsmi // Veya Oynatmak İstediğiniz Videoyu Yanıtlayarak /vplay Yazabilirsiniz.
 
 ╰☞**/indir [Müzik Adı] veya [Youtube Linki] :** Youtubedan İndirmek İstediğiniz Şarkıyı İndirebilirsiniz.
-(╰☞**Örnek:** /indir Neşet Ertaş Gönül Dağı)
+(╰☞**Örnek:** /indir uygar doganay koptum )
 
 
 ✅**<u>Oynatma Listeleri:</u>**

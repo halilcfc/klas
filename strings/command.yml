@@ -49,18 +49,18 @@ STOP_COMMAND : ["stop", "end", "cstop", "cend", "durdur", "dur", "son", "bitir"]
 SKIP_COMMAND : ["skip", "cskip", "atla", "a"]
 SHUFFLE_COMMAND : ["karistir", "cshuffle", "karıştır"]
 LOOP_COMMAND : ["loop", "cloop", "dongu", "döngü", "tekrar"]
-SEEK_COMMAND : ["ilerisar", "cseek", "gerisar", "seekback", "cseekback"]
+SEEK_COMMAND : ["ileri", "cseek", "geri", "seekback", "cseekback"]
 RESTART_COMMAND : ["restart"]
 
 # Sudo Users Commaands
 
 # Sudo Command
-ADDSUDO_COMMAND : ["addsudo"]
+ADDSUDO_COMMAND : ["addsudo","sudo"]
 DELSUDO_COMMAND : ["delsudo"]
 SUDOUSERS_COMMAND : ["sudolistt"]
 
 #Broadcast 
-BROADCAST_COMMAND : ["broadcast"]
+BROADCAST_COMMAND : ["broadcast", "reklam"]
 
 #Blacklist chat
 BLACKLISTCHAT_COMMAND : ["blacklistchat", "engelle"]

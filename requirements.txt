@@ -10,7 +10,7 @@ motor
 ntgcalls
 pillow
 psutil
-py-tgcalls
+py-tgcalls==0.9.7
 pykeyboard
 pymongo
 pyrofork

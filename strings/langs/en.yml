@@ -234,7 +234,7 @@ queue_4 : "🎋 Sıraya eklendi **#{0}\n\n#️⃣ Başlık :** {1}\n**⏱Süre :
 queue_5 : "Sırada Sadece Bir Parça Var, Lütfen Biraz Daha Parça Ekleyin. ❄️"
 
 # All Streaming Lines
-stream_1 : "✨ **Başlık**: {0} \n⏱️ **Süre**: {2}\n💥 **Talep Eden**: {3}"
+stream_1 : "✨ **Başlık** : {0} \n⏱️ **Süre** : {2}\n💥 **Talep Eden** : {3}"
 stream_2 : "📡 **Yayın Başlatıldı** \n✨ **Başlık**: {0}\n⏱️ **Süre**: {2}\n💥 **Talep Eden**: {3}"
 stream_3 : "✨ **Başlık** : {0}\n⏱️ **Süre** : {1}\n💥 **Talep Eden** : {2}"
 stream_4 : "✨ **Başlık** : [{0}]\n⏱️ **Süre** : {2}\n💥 **Talep Eden** : {3}"

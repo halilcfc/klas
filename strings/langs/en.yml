@@ -338,4 +338,149 @@ SA_B_4 : "🏷 Gruptaki Top 10"
 SA_B_5 : "❄️ Genel istatistikler"
 SA_B_6 : "👤 Kullanıcı İstatistikleri"
 SA_B_7 : "🔢 Global Top 10 İstatistikleri"
-SA_B_8 : "🤖 Bot İstati
+SA_B_8 : "🤖 Bot İstatistikleri"
+
+#Queue
+QU_B_1 : "📑 Sıra Listesi"
+QU_B_2 : "🎧 {1}den {0} Dakikası Oynatıldı"
+
+# Sudo Users [ If you are translating this to some other language .. you can leave all these strings in english language]
+
+#Sudo
+sudo_1 : "{0} zaten bir sudo kullanıcısı. ❄️"
+sudo_2 : "Sudo Kullanıcılarına **{0}** eklendi. ❄️" 
+sudo_3 : "Bot'un Sudo'sunun bir parçası değil."
+sudo_4 : "Bot'un Sudo Kullanıcısından Kaldırıldı. ❄️"
+sudo_5 : "❤️‍🔥<u> **Developer:**</u>\n"
+sudo_6 : "\n🎉<u> **Yardımcılar:**</u>\n"
+sudo_7 : "Sudo Kullanıcısı Yok"
+
+#Block
+block_1 : "{0} bot tarafından zaten engellendi."
+block_2 : "Botun Engellenenler Listesine **{0}** eklendi. Kullanıcı artık hiçbir koşulda bot kullanamayacak.\n\nEngellenen kullanıcıları kontrol edin: /blockedusers"
+block_3 : "Kullanıcı zaten ücretsiz ve engellenmedi."
+block_4 : "Kullanıcı engelleme listesinden kaldırıldı. Kullanıcı artık bot kullanabilecek."
+block_5 : "Engellenen Kullanıcı Bulunamadı"
+block_6 : "Engellenen Kullanıcılar Listesi Alınıyor.. Lütfen Bekleyin. ❄️"
+block_7 : "**Engellenmiş kullanıcılar:**\n\n"
+
+#Blacklist Chats
+black_1 : "**Kullanım:**\n/blacklistchat [CHAT_ID]"
+black_2 : "Sohbet zaten kara listeye alındı."
+black_3 : "Sohbet başarıyla kara listeye alındı"
+black_4 : "**Kullanım:**\n/whitelistchat [CHAT_ID]"
+black_5 : "Sohbet zaten beyaz listede."
+black_6 : "Sohbet başarıyla beyaz listeye alındı"
+black_7 : "**Kara Listeye Alınmış Sohbetler:**\n\n"
+black_8 : "Kara Listeye Alınmış Sohbet Yok"
+
+#videolimit
+vid_1 : "**Kullanım:**\n/set_video_limit veya /videolimit [İzin verilen sohbet sayısı] veya [Disable]"
+vid_2 : "Lütfen Limiti Ayarlamak için Sayısal Rakamlar Kullanın."
+vid_3 : "Görüntülü Görüşmelerin Maksimum Sınırı, {0} Sohbet İçin Tanımlandı."
+vid_4 : "Görüntülü Görüşmeler Devre Dışı"
+
+#maintenance
+maint_1 : "**Kullanım:**\n/maintenance [enable|disable]"
+maint_2 : "Bakım için Etkinleştirildi ❄️"
+maint_3 : "Bakım Modu Devre Dışı"
+
+#log
+log_1 : "**Kullanım:**\n/logger [enable|disable]"
+log_2 : "Günlük Loglar Etkin"
+log_3 : "Günlük Loglar Devre Dışı"
+
+#videomode
+
+vidmode_1 : "**Kullanım:**\n/videomode [download|m3u8]"
+vidmode_2 : "Video Oynatma Modu, indirici olarak ayarlandı. Bot şimdi parçaları indirecek."
+vidmode_3 : "Video Oynatma Modu m3u8 olarak ayarlandı. Bot şimdi parçaları canlı olarak çalacak."
+
+#broadcast
+broad_1 : "**Bottan {1} Pinli {0} Sohbette Yayınlanan Mesaj. ❄️**"
+broad_2 : "Asistan Yayını Başlatıldı...❄️"
+broad_3 : "**Yardımcı Yayın:**\n\n"
+broad_4 : "Asistan 1, {0} sohbette yayınlandı\n"
+broad_5 : "Asistan 2, {0} sohbette yayınlandı\n"
+broad_6 : "Asistan 3, {0} sohbette yayınlandı\n"
+broad_7 : "Asistan 4, {0} sohbette yayınlandı\n"
+broad_8 : "Asistan 5, {0} sohbette yayınlandı\n"
+broad_9 : "**Kullanım**:\n/broadcast [Mesaj] veya [Bir Mesajı Yanıtla]"
+broad_10 : "Lütfen yayınlamak için biraz metin sağlayın."
+broad_11 : "**{0} Kullanıcıya Yayınlanan Mesaj.**"
+
+#Heroku
+heroku_1 : "Please make sure your Heroku API Key, Your App name are configured correctly in the heroku"
+heroku_2 : "You can only get logs of Heroku Apps"
+heroku_3 : "**Usage:**\n/get_var [Var Name]"
+heroku_4 : "Unable to find any such var."
+heroku_5 : ".env file not found."
+heroku_6 : "**Usage:**\n/del_var [Var Name]"
+heroku_7 : "{0} Deleted."
+heroku_8 : "**Usage:**\n/set_var [Var Name] [Var Value]"
+heroku_9 : "{0} has been updated successfully"
+heroku_10 : "{0} has been added successfully"
+heroku_11 : "Only for Heroku Apps"
+heroku_12 : "Checking Heroku Usage. Please Wait"
+heroku_13 : "Checking for available updates..."
+heroku_14 : "Git Command Error"
+heroku_15 : "Invalid Git Repsitory"
+
+#Private bot mode
+pbot_1 : "**Kullanım:**\n/authorize [CHAT_ID]"
+pbot_2 :  "**Kullanım:**\n/unauthorize [CHAT_ID]"
+pbot_3 : "Yetkili listeye verilen sohbet eklendi"
+pbot_4 : "Verilen sohbet yetkili listeden kaldırıldı"
+pbot_5 : "Sohbet zaten yetkili listede"
+pbot_6 : "Yetkili listede böyle bir sohbet yok"
+pbot_7 : "Chat_id doğrulanamadı.\n\nSayısal olduğundan ve doğru biçimde olduğundan emin olun. Sohbet kullanıcı adı veya bağlantıları kullanmayın."
+pbot_8 : "Lütfen bekleyin... Yetkili sohbetler getiriliyor. ❄️"
+pbot_9 : "**<b>Getirilen Sohbetler:</b>**\n\n"
+pbot_10 : "Özel sohbet"
+pbot_11 : "Yetkili sohbet bulunamadı"
+pbot_12 : "Özel Bot Modu devre dışı.\n\nBotunuzu özel bot olarak kullanmak için **PRIVATE_BOT_MODE** = **True** olarak ayarladığınızdan emin olun"
+pbot_13 : "\n**<b>Getirilmeyen Sohbetler:</b>**\n\n"
+
+
+#Gbanned
+gban_1 : "Kendini Mi Banlamak İstiyorsun? Ne Kadar Da Aptalsın😂😂"
+gban_2 : "Kenidimi Mi Banlicam? LoL😂😂"
+gban_3 : "Bir Sudo Kullanıcısını Mı Banlayacaksın asdfsddsfdsd"
+gban_4 : "{0} is already **gbanned** from the bot."
+gban_5 : "**Initializing Gobal Ban on {0}**\n\nExpected Time : {1}."
+gban_6 : "**Gbanned Başarılı**\n\nBanned **{0}** from **{1}** chats."
+gban_7 : "{0} is not **gbanned **yet from the bot."
+gban_8 : "**Ungbanning {0}**\n\nExpected Time : {1}."
+gban_9 : "**UnGbanned Başarılı**\n\nUnbanned **{0}** in **{1}** chats."
+gban_10 : "Banlı Kullanıcı Yok. ❄️"
+gban_11 : "Please wait a while.. Fetching Gbanned users list ❄️"
+
+#Suggestions
+sug_0 : "❓**Do You Know?**\n\n✅ "
+sug_1 : "You can play music in two **search modes** i.e. Direct Mode and Inline Mode.\n\nChange modes via /playmode"
+sug_2 : "You can play music in two **play types** i.e. Everyone Mode and Admins Mode.\n\nChange modes via /playmode"
+sug_3 : "You can play music in **channels** too.\n\nSet channel_id via /channelplay and play via /cplay "
+sug_4 : "Non Admins can use admin commands too by adding them to** AUTH USERS LIST**. \nAdd any user to auth list by /auth , remove with /unauth and check auth users via /authusers"
+sug_5 : "Bot has a feature called **Clean Mode**.\nIt deletes the bot's messages after 5 Mins and ensures that  your chat remains clean.\n\nEnable or disable cleanmode from /settings [__Enabled by default__]"
+sug_6 : "You can play **Spotify** tracks and playlists too.\n\nStart playing now with /play [Spotify Link]"
+sug_7 : "You can play **Apple Music** tracks and playlists too.\n\nStart playing now with /play [Apple Link]"
+sug_8 : "You can play **Resso Music** tracks and playlists too.\n\nStart playing now with /play [Resso Link]"
+sug_9 : "You can play **Sound Cloud** tracks and playlists too.\n\nStart playing now with /play [SoundCloud Link]"
+sug_10 : "You can play **Videos** in voice chat via /vplay [Video Name] or /play -v [Video Name]"
+sug_11 : "You can set **Audio Quality** of voice chat to Low, Medium or High.\n\nSet quality via /settings"
+sug_12 : "You can set **Video Quality** of voice chat to Low, Medium or High.\n\nSet quality via /settings"
+sug_13 : "You can check your **Statistics** on bot like Top 10 Played Tracks.\n\nGet Stats: /gstats "
+sug_14 : "You can check **Group's Stats** on bot like Top 10 Played Tracks.\n\nGet Stats: /gstats "
+sug_15 : "You can check bot's **Global Stats** like top 10 users, top 10 chats, top 10 tracks etc etc.\n\nCheck Stats: /gstats "
+sug_16 : "You can now mute the music which is playing on voice chat.\n\nCommand: /mute"
+sug_17 : "You can now unmute and mute the music which is playing on voice chat.\n\nCommand: /mute and /unmute"
+sug_18 : "You can search the lyrics of musics with us too..\n\nCommand: /lyrics [Music Name]"
+sug_19 : "You can download the music or video from the bot through Youtube.\n\nCommand: /song [Music Name]"
+sug_20 : "You can get a complete list of my commands that i accept.\n\nCommand: /help"
+sug_21 : "Bot has server-sided playlist option.\n\nYou can add music in your playlist and play them all together via /play"
+sug_22 : "You can now shuffle the queued musics on the bot.\n\nCommand: /shuffle"
+sug_23 : "You can check the queue of the musics.\n\nCommand: /queue"
+sug_24 : "You can check my owner and sudo users who manage me.\n\nCommand: /sudolist"
+sug_25 : "Bot has a feature called **Commands Delete Mode**. It deletes its executed commands automatically.\n\nEnable or disable deletemode from /settings [__Enabled by default__]"
+sug_26 : "You can change language of the bot to available languages for easy understanding.\n\nCommand: /language"
+sug_27 : "Bot has a feature called **Force Play**.\n\n**Force Play** stops the playing track on voice chat and starts playing the searched track instantly without disturbing/clearing queue.\n\nCommand: /playforce"

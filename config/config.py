@@ -12,9 +12,9 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", "28767434"))
+API_ID = int(getenv("API_ID", "26597515"))
 
-API_HASH = getenv("API_HASH", "2b012ec696983799d2835514d4bc9ba1")
+API_HASH = getenv("API_HASH", "e556b966e7192209f7f419b07de8cc6a")
 
 ## Get it from @Botfather in Telegram.
 
@@ -22,7 +22,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 # Database to save your chats and stats.
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://aysen3434:aysen3434@cluster0.jisamwa.mongodb.net/test?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 
@@ -42,17 +42,17 @@ SONG_DOWNLOAD_DURATION = int(
 
 # You'll need a Private Group ID for this.
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002122489433"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
 # A name for your Music bot.
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","Efsane")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Fenomen Muzik Bot")
 
 # Your User ID.
 
 OWNER_ID = list(
 
-    map(int, getenv("OWNER_ID", "6019071403").split())
+    map(int, getenv("OWNER_ID", "").split())
 
 )  # Input type must be interger
 
@@ -70,7 +70,7 @@ UPSTREAM_REPO = getenv(
 
     "UPSTREAM_REPO",
 
-    "https://github.com/Son3421/Larisa",
+    "https://github.com/BaymoI/resimsizmuzk",
 
 )
 
@@ -184,9 +184,9 @@ SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
 
-STRING1 = getenv("STRING_SESSION", "AQG29MoAjnYn0TE8pZazlqv6oaljVlQzfmrOumVt_01KgHiUPQ9URDpmCmaPRapUQPX250aRy_2dFp9DpWwDBmoh8OXZI5CeyROrgOw0aWHcCS0FaexdHpzNUDSNu6MVKUkeRleyDo11UvuoydJpdtfsF-uI_w-Kzvto5JwNcG5jSVwmzUq9bq0T_ZBJyiZmtwQ015b-cZQmsEC5Q2w_SnU9BBYVxXnAyQpsbPUwIy9oPocOzs5vJw9cYlTX5u3GtWe3AZ9YtuUPbQOxGD1fW_3Kh-2aZiIDFnpwyWa9YiXFQcPOm8bfebcGSa5G3axDbcXGrwwrAc0sDrOaLu1R7KNV6_ggAAAAGp-JdxAA")
+STRING1 = getenv("STRING_SESSION", "")
 
-STRING2 = getenv("STRING_SESSION2", "")
+STRING2 = getenv("STRING_SESSION2", None)
 
 STRING3 = getenv("STRING_SESSION3", None)
 

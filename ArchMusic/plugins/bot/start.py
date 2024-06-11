@@ -218,7 +218,7 @@ async def start_comm(client, message: Message, _):
             sender_name = message.from_user.first_name
             return await app.send_message(
                 config.LOG_GROUP_ID,
-                f"{message.from_user.mention}, Bot'u yeni başlattı.\n\n**USER ID:** {sender_id}\n**USER NAME:** {sender_name}",
+                f"{message.from_user.mention}, Bot'a Start Verdi.\n\n**Kullanıcı İD:** {sender_id}\n**Kullanıcı ADI:** {sender_name}",
             )
 
 

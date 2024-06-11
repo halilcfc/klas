@@ -71,7 +71,7 @@ class Userbot(Client):
             assistants.append(1)
             try:
                 await self.one.send_message(
-                    config.LOG_GROUP_ID, "Assistant Started"
+                    config.LOG_GROUP_ID, "Asistan ¹ Başlatıldı . . . 💥"
                 )
             except:
                 LOGGER(__name__).error(
@@ -102,7 +102,7 @@ class Userbot(Client):
             assistants.append(2)
             try:
                 await self.two.send_message(
-                    config.LOG_GROUP_ID, "Assistant Started"
+                    config.LOG_GROUP_ID, "Asistan ² başlatıldı. . . 💥"
                 )
             except:
                 LOGGER(__name__).error(

@@ -52,8 +52,8 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     buttons = [
         [
             InlineKeyboardButton(
-                text=f"{played} {bar} {dur}",
-                callback_data="GetTimer",
+                text=f"Eğlence Merkezi 🥳",
+                url=f"https://t.me/jiyankurdishhot"
             )
         ],
         [
@@ -65,11 +65,6 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
-        ],
-        [
-             InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"], callback_data="close"
-            )
         ],
     ]
     return buttons
@@ -80,8 +75,8 @@ def telegram_markup_timer(_, chat_id, played, dur, videoid):
     buttons = [
         [
             InlineKeyboardButton(
-                text=f"{played} {bar} {dur}",
-                callback_data="GetTimer",
+                text=f"Eğlence Merkezi 🥳",
+                url=f"https://t.me/jiyankurdishhot"
             )
         ],
         [
@@ -93,11 +88,6 @@ def telegram_markup_timer(_, chat_id, played, dur, videoid):
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
-        ],
-        [
-             InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"], callback_data="close"
-            )
         ],
     ]
     return buttons

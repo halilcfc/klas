@@ -122,19 +122,27 @@ def stream_markup(_, videoid, chat_id):
     return buttons
 
 
-def telegram_markup(_, chat_id):
+def telegram_markup(_, chat_id, videoid):
     buttons = [
         [
+            InlineKeyboardButton(
+                text=f"Eğlence Merkezi 🥳",
+                url=f"https://t.me/jiyankurdishhot"
+            )
+        ],
+        [
+            InlineKeyboardButton(
+                text=_["PL_B_2"],
+                callback_data=f"add_playlist {videoid}",
+            ),
             InlineKeyboardButton(
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
-            InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"], callback_data="close"
-            ),
         ],
     ]
     return buttons
+
 
 
 ## Search Query Inline

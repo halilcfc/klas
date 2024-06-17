@@ -154,7 +154,7 @@ async def song_helper_cb(client, CallbackQuery, _):
                 fom = x["format_id"]
                 keyboard.row(
                     InlineKeyboardButton(
-                        text=f"{form} Quality Audio = {sz}",
+                        text=f"{form} Kalite = {sz}",
                         callback_data=f"song_download {stype}|{fom}|{vidid}",
                     ),
                 )
@@ -219,7 +219,7 @@ async def song_helper_cb(client, CallbackQuery, _):
 @languageCB
 async def song_download_cb(client, CallbackQuery, _):
     try:
-        await CallbackQuery.answer("Downloading")
+        await CallbackQuery.answer("İndiriliyor")
     except:
         pass
     callback_data = CallbackQuery.data.strip()

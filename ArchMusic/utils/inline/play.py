@@ -52,8 +52,8 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     buttons = [
         [
             InlineKeyboardButton(
-                text=f"Eğlence Merkezi 🥳",
-                url=f"https://t.me/jiyankurdishhot"
+                text=f"Sözler Diyarı 🥳",
+                url=f"https://t.me/duslerden"
             )
         ],
         [
@@ -75,8 +75,8 @@ def telegram_markup_timer(_, chat_id, played, dur, videoid):
     buttons = [
         [
             InlineKeyboardButton(
-                text=f"Eğlence Merkezi 🥳",
-                url=f"https://t.me/jiyankurdishhot"
+                text=f"Sözler Diyarı 🥳",
+                url=f"https://t.me/duslerden"
             )
         ],
         [
@@ -104,8 +104,8 @@ def stream_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text=f"Eğlence Merkezi 🥳",
-                url=f"https://t.me/jiyankurdishhot"
+                text=f"Sözler Diyarı 🥳",
+                url=f"https://t.me/duslerden"
             )
         ],
         [
@@ -126,8 +126,8 @@ def telegram_markup(_, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text=f"Eğlence Merkezi 🥳",
-                url=f"https://t.me/jiyankurdishhot"
+                text=f"Sözler Diyarı 🥳",
+                url=f"https://t.me/duslerden"
             )
         ],
         [

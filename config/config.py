@@ -12,17 +12,17 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", "26597515"))
+API_ID = int(getenv("API_ID", "26962086"))
 
-API_HASH = getenv("API_HASH", "e556b966e7192209f7f419b07de8cc6a")
+API_HASH = getenv("API_HASH", "38b59643afe67e5d4d3920e0cb8ec68d")
 
 ## Get it from @Botfather in Telegram.
 
-BOT_TOKEN = getenv("BOT_TOKEN", "7353411863:AAE9_gw_3Xh2e7NKHx3S7D-sTbmwqI0is5I")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 # Database to save your chats and stats.
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Kingbrukh:kingkhan@kingbruh.ra3pjgm.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 
@@ -42,17 +42,17 @@ SONG_DOWNLOAD_DURATION = int(
 
 # You'll need a Private Group ID for this.
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002228074537"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
 # A name for your Music bot.
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Saltanat Muzik Bot")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "")
 
 # Your User ID.
 
 OWNER_ID = list(
 
-    map(int, getenv("OWNER_ID", "6904783792").split())
+    map(int, getenv("OWNER_ID", "").split())
 
 )  # Input type must be interger
 
@@ -184,7 +184,7 @@ SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
 
-STRING1 = getenv("STRING_SESSION", "BAGV2IsAFtGg4pA1wiJ8Oc5bjaIo2tKZ23X2MxdBE9qptSnDEfsycRqXcNFJW80wFlx2quOxgSbur_6FkKrgz3E_7Pgn2g0R0H0XSEsdZzv9jaKRAxDfAaszGrj5lHy3gGlE1YUzpcC8Qt0feAK0va-FhbI-UHQPYmnJY8nrswptAxccCyUPpUC8yA0K5ZOntTBElCxTUmK5WEEn0EoZqmKLu0M-UnZqTxGV5aE7wiTSbBq0o7XV4uXBhB_5GQuxcgUD53BiHjnUJv9-sFopkG89ROAR4cmr_5OtwqkJv76UXKiBzUEII1Lv_Ip-1_XtOpjWLps0L-zA7_GdZHauhjtpcOepiQAAAAG2yvpyAA")
+STRING1 = getenv("STRING_SESSION", "")
 
 STRING2 = getenv("STRING_SESSION2", None)
 

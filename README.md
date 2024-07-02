@@ -1,72 +1,86 @@
-<h1>Yeni Nesil Tamamen Türkçe Müzik Botu</h1>
 
-Telegram sohbet gruplarında hem müzik dinleyebileceğiniz hem de video izleyebileceğiniz müzik botudur.
-Bot tamamen açık kaynak kodludur istediğiniz gibi kullanabilirsiniz.
 
-## DEVELOPER İLETİŞİM
-<b>Telegram:</b> <a href="https://t.me/ToxicTR">Toxic</a> ulaşabilirsiniz. <br>
+# Arch Music Bot <img src="https://img.shields.io/github/v/release/ArchBots/ArchMusic?color=green&logo=github&logoColor=red&style=social" alt="RELEASE">
 
-## 🖇 VPS Deployment
-<code>
-git clone https://github.com/ToxicTR/Toxic-Music
-cd Toxic-Music
-sudo apt-get update && sudo apt-get upgrade -y
-sudo apt-get install python3-pip ffmpeg -y
-sudo pip3 install -U pip
-curl -fssL https://deb.nodesource.com/setup_17.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm #bunu yapmadan önce node.js kurulumu yapın
-pip3 install -U -r requirements.txt
-cp sample.env .env
-nano .env
-</code>
+<img src="https://telegra.ph/file/3e72df6ef787df25f008e.jpg" align="middle" width="200" height="200"/>
 
-## nodejs kurulumu sürüm düşük hatası alıyorsanız aşağıdaki komutları uygulayın.
-<code>
- sudo apt install nodejs
- sudo apt install npm
- sudo npm cache clean -f
- sudo npm install -g n
- sudo n stable
-</code>
+[Arohi Music Bot](https://t.me/UMIKO_CHAT_BOT) is a Powerful Telegram Music+Video Bot written in Python using Pyrogram and Py-Tgcalls by which you can stream songs, video and even live streams in your group calls via various sources.
 
-## .env dosyasını VDS'te iken aşağıdaki değerleri kopyalayın ve yapıştırın.
+* Youtube, Soundcloud, Apple Music, Spotify, Resso, Live Streams and Telegram Audios & Videos support.
+* Written from scratch, making it stable and less crashes with attractive thumbnails.
+* Loop, Seek, Shuffle, Specific Skip, Playlists etc support
+* Multi-Language support
 
-<code>
-API_ID= my.telegram.org adresinden alacaksiniz
-API_HASH= my.telegram.org adresinden alacaksiniz
-BOT_TOKEN= Bot tokeninizi telegramdan @BotFather dan alabilirsiniz
-MONGO_DB_URI= https://www.mongodb.com/ adresinden alacaksiniz.
-LOG_GROUP_ID= sohbet grubu id'si @raw_data_bot tan öğrenebilirsiniz
-MUSIC_BOT_NAME= müzik botunuzun adi
-STRING_SESSION= asistan hesabinin string session almaniz için https://replit.com/@AssadAli/String-Session-Generator
-SPOTIFY_CLIENT_ID = developer.spotify.com adresinden alacaksiniz
-SPOTIFY_CLIENT_SECRET = developer.spotify.com adresinden alacaksiniz
-OWNER_ID = sahip(sizin) kullanici kimliğiniz bunu userinfobot tan ya da herhangi bir gruptan info çekerek öğrenebilirsiniz.
+<!-- VPS Deployment -->
+<details>
+  <summary>🖇 VPS Deployment</summary>
 
-UPSTREAM_REPO = https://github.com/ToxicTR/Toxic-Music
-UPSTREAM_BRAMCH = master
-PRIVATE_BOT_MODE = False
-YOUTUBE_EDIT_SLEEP = 3
-TELEGRAM_EDIT_SLEEP = 5
-AUTO_LEAVING_ASSISTANT = false
-ASSISTANT_LEAVE_TIME = 5400
-</code>
+  1. Upgrade and Update:
+     <pre>
+     sudo apt-get update && sudo apt-get upgrade -y
+     </pre>
 
-Nanoda <code>Ctrl+X</code> yaparak hepsine <code>yes</code> yaparak kayıt edip çıkın.
+  2. Installing Required Packages:
+     <pre>
+     sudo apt-get install python3-pip ffmpeg -y
+     </pre>
 
-## Botu başlatmadan önce yapmaniz gerekenler
-<code>
-screen -S "botunuzunAdi"
-chmod 777 *
-</code>
+  3. Setting up PIP:
+     <pre>
+     sudo pip3 install -U pip
+     </pre>
 
-## Bunları yaptıktan sonra;
+  4. Installing Node:
+     <pre>
+     curl -fssL https://deb.nodesource.com/setup_18.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm
+     </pre>
 
-<code>screen bash start</code> ya da <code>screen ./start</code> yapın.
+  5. Clone the Repository:
+     <pre>
+     git clone your_repo_link && cd repo_name
+     </pre>
 
-Botunuz aktif olacaktır.
+  6. Install Requirements:
+     <pre>
+     pip3 install -U -r requirements.txt
+     </pre>
 
-## Keyifli dinlemeler 
+  7. Create .env with sample.env:
+     <pre>
+     cp sample.env .env
+     </pre>
 
-## DİKKAT!
+  8. Editing Vars:
+     <pre>
+     vi .env
+     </pre>
+     Press `I` to start editing. Edit .env with your values. Press `Esc`, then type `:wq` to save and exit.
 
-Botunuzu ve asistaninizi açtığınız log grubunda tam yetki vermezseniz ve sesli sohbeti açık bırakmazsanız çalışmaz!
+  9. Finally, Run Your Music Bot:
+     <pre>
+     sudo apt install tmux && tmux
+     bash start
+     </pre>
+</details>
+
+
+
+## Deploy On Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Koch-Dev/Dooker)
+
+
+## 🏷 Support
+
+For any questions or assistance, feel free to reach out:
+
+- Contact options listed on [this GitHub profile](https://github.com/ArchBots).
+- **Telegram Channel:** [ArchBots](https://t.me/ArchBots)
+- **Telegram Support Group:** [ARCH_SUPPORTS](https://t.me/ARCH_SUPPORTS)
+
+Made with ❤️ by [**SAKIL**](https://t.me/YO_UR_OFFICIAL_CRUSH)
+
+Developed by:
+**credit**
+- [**YUKKIMUSIC**](https://t.me/YukkiSupport)
+- [**Rudra**](https://t.me/Unknown_hu_m)
